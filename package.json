@@ -1,0 +1,27 @@
+{
+  "name": "@nocobase/plugin-field-custom-linkage",
+  "version": "1.0.0",
+  "main": "dist/server/index.js",
+  "displayName": "Field: Custom Linkage",
+  "displayName.zh-CN": "字段: 自定义联动",
+  "description": "Custom Linkage Field",
+  "description.zh-CN": "自定义联动字段",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "@ant-design/icons": "5.x",
+    "@formily/react": "2.x",
+    "antd": "5.x",
+    "react": "^18.2.0",
+    "react-i18next": "^11.15.1"
+  },
+  "peerDependencies": {
+    "@nocobase/client": "1.x",
+    "@nocobase/database": "1.x",
+    "@nocobase/plugin-workflow": ">=0.17.0-alpha.3",
+    "@nocobase/server": "1.x",
+    "@nocobase/test": "1.x"
+  },
+  "keywords": [
+    "Custom Linkage"
+  ]
+}
